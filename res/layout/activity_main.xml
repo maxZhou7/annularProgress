@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.max.annularpg.AnnularView
+        android:id="@+id/annular_pb"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:onClick="firstClick" />
+
+    <com.max.annularpg.FillCircleView
+        android:id="@+id/circle_pb"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/annular_pb"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:onClick="secondClick" />
+
+</RelativeLayout>
