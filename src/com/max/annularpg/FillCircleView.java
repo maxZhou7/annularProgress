@@ -64,7 +64,7 @@ public class FillCircleView extends View {
 				(float) (360 * angel / Math.PI), true, mPaint);
 		Path path = new Path();
 		if (sY > 0) {
-			mPaint.setColor(Color.WHITE);
+			mPaint.setColor(Color.WHITE); 
 			path.moveTo((float) (r - Math.sqrt(r * r - sY * sY)) - circleWidth
 					/2, r + sY);
 			path.lineTo((float) (r + Math.sqrt(r * r - sY * sY)) + circleWidth
